@@ -24,9 +24,9 @@ public class NewTest {
 	  String actual=driver.getTitle();
 	  Assert.assertTrue(actual.contains("Demo Guru99 Page"));
   }
-  @AfterTest
+ /* @AfterTest
   public void closeBrowser()
   {
 	  driver.quit();
-  }
+  }*/
 }
